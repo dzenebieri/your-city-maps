@@ -1,0 +1,65 @@
+.user {
+  gap: 4px;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 8px;
+  position: absolute;
+  align-items: center;
+  background-color: #0f0f0f;
+}
+
+.user img {
+  height: 48px;
+  border-radius: 100px;
+}
+
+.user p {
+  color: #0866FF;
+}
+
+.user button {
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #f1f1f1;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.user button:hover {
+  opacity: .7;
+  transition: .6s ease all;
+}
+
+@media (max-width: 650px) {
+  .user img {
+    top: 40px;
+    right: 10px;
+    position: absolute;
+  }
+
+  .user p {
+    display: none;
+  }
+
+  .user button {
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: #0f0f0f;
+  }
+}
+
+@media (max-width: 500px) {
+  .user button {
+    background-color: rgba(200, 200, 200, 0.5);
+  }
+}

@@ -1,0 +1,36 @@
+.mapCS {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+.mapContainerCS {
+  height: 100%;
+}
+
+:global(.leaflet-popup-content-wrapper) {
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  color: #0866FF;
+  border-radius: 8px;
+  background-color: #0f0f0f;
+  border-left: 4px solid #0866FF;
+}
+
+:global(.leaflet-popup-content) {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .mapCS {
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    border-top: 2px solid #0866FF;
+  }
+}

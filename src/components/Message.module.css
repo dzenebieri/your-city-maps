@@ -1,0 +1,6 @@
+.messageCS span {
+  color: red;
+  font-size: 100px;
+  margin: 40px auto;
+  font-weight: bold;
+}

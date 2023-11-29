@@ -1,0 +1,23 @@
+.logoCS {
+  gap: 24px;
+  display: flex;
+  margin-left: -24px;
+  align-items: center;
+}
+
+.homeCS {
+  font-size: 30px;
+  color: #0866FF;
+}
+
+.logoCS img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 375px) {
+  .logoCS img {
+    right: 14px;
+    position: relative;
+  }
+}

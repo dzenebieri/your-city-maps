@@ -1,0 +1,43 @@
+.cityCS {
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+  gap: 11px;
+  width: 276px;
+  padding: 22px;
+  max-height: 75%;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.infoDivCS {
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoSpanCS {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(200, 200, 200, 0.5);
+}
+
+.infoSubSpanCS {
+  gap: 4px;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cityCS a:link,
+.cityCS a:visited {
+  font-size: 14px;
+  color: #0866FF;
+  align-items: center;
+  display: inline-flex;
+  text-decoration: none;
+  font-family: bold;
+  font-weight: bold;
+  border-bottom: 1px solid #0866FF;
+}

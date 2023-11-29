@@ -1,0 +1,30 @@
+.countryListCS {
+  height: auto;
+  display: grid;
+  list-style: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  gap: 8px;
+  width: 276px;
+  max-height: 75%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.countryListCS::-webkit-scrollbar {
+  width: 0;
+}
+
+.noCityCS {
+  display: flex;
+  cursor: default;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 48px;
+  width: 276px;
+  font-size: 14px;
+  color: #0f0f0f;
+  border-radius: 8px;
+  background-color: #0866FF;
+}

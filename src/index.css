@@ -1,0 +1,89 @@
+/* required styles */
+@import "https://unpkg.com/leaflet@1.9.3/dist/leaflet.css";
+/* required styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  color: #f1f1f1;
+  line-height: 1.6;
+  font-weight: 400;
+  background-color: black;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
+.react-datepicker {
+  width: 232px;
+  height: 202px;
+  font-size: 13px;
+  font-family: bold;
+  background-color: #0f0f0f;
+}
+
+.react-datepicker__month {
+  margin: 4px;
+}
+
+.react-datepicker__day-names {
+  margin-bottom: -8px;
+}
+
+.react-datepicker__day,
+.react-datepicker__day-name,
+.react-datepicker__time-name {
+  color: #0866FF;
+}
+
+.react-datepicker-year-header,
+.react-datepicker-time__header,
+.react-datepicker__current-month {
+  margin-top: 0;
+  font-size: 13px;
+  color: #0866FF;
+  font-weight: bold;
+}
+
+.react-datepicker__month-container {
+  float: unset;
+}
+
+.react-datepicker-popper[data-placement^=bottom] {
+  padding-top: 4px;
+}
+
+.react-datepicker__header:not(.react-datepicker__header--has-time-select) {
+  background: #0f0f0f;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-range,
+.react-datepicker__year-text--selected,
+.react-datepicker__year-text--in-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/*
+"importCSSModule": {
+    "prefix": "csm",
+    "scope": "javascript,typescript,javascriptreact",
+    "body": ["import styles from './${TM_FILENAME_BASE}.module.css'"],
+    "description": "Import CSS Module as `styles`"
+  },
+*/

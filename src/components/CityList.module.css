@@ -1,0 +1,33 @@
+.cityListCS {
+  display: flex;
+  list-style: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  flex-direction: column;
+  gap: 12px;
+  width: 276px;
+  margin: -4px 0 4px 0;
+}
+
+.cityListCS li {
+  width: 276px;
+}
+
+.cityListCS::-webkit-scrollbar {
+  width: 0;
+}
+
+.noCityCS {
+  display: flex;
+  cursor: default;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 48px;
+  width: 276px;
+  font-size: 14px;
+  color: #0f0f0f;
+  border-radius: 8px;
+  background-color: #0866FF;
+}

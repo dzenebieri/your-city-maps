@@ -1,0 +1,78 @@
+.devMainCS {
+  height: 100vh;
+  padding: 20px 40px;
+  background-color: #0f0f0f;
+}
+
+.devDivCS {
+  gap: 40px;
+  display: grid;
+  margin: 40px 0;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.devDivCS span {
+  font-size: 36px;
+  color: #0866FF;
+}
+
+.devDivCS p {
+  font-size: 18px;
+  margin-top: 18px;
+  color: #f1f1f1;
+}
+
+.devDivCS p p {
+  font-size: 14px;
+}
+
+.devDivCS p p a,
+.devDivCS p p a:visited {
+  color: #76c551;
+  text-decoration: none;
+}
+
+.devDivCS p a,
+.devDivCS p a:visited {
+  color: #0866FF;
+  font-family: bold;
+  font-weight: bold;
+}
+
+.devDivCS b {
+  color: #61DBFB;
+}
+
+.devDivCS img {
+  width: 100%;
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .devDivCS {
+    display: block;
+  }
+}
+
+@media (max-width: 425px) {
+  .devDivCS {
+    width: 425px;
+    margin: 24px -32px;
+  }
+
+  .devDivCS img {
+    margin: 40px 0 0px -8px;
+  }
+}
+
+@media (max-width: 375px) {
+  .devDivCS {
+    margin: 0;
+    width: 100%;
+  }
+
+  .devDivCS img {
+    margin: 20px 0 0px -8px;
+  }
+}

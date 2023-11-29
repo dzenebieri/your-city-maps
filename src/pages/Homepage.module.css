@@ -1,0 +1,37 @@
+.homepageCS {
+  height: 100vh;
+  padding: 20px 40px;
+  background-size: cover;
+  background-position: center;
+  background-color: #0f0f0f;
+  background-image: url("/src/imgs/SanFrancisco.png");
+}
+
+.homepageCS main {
+  display: flex;
+  justify-content: center;
+}
+
+.homepageCS main a,
+.homepageCS main a:visited {
+  gap: 4px;
+  bottom: 40px;
+  font-size: 18px;
+  color: #0866FF;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 8px;
+  position: absolute;
+  align-items: center;
+  display: inline-flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #0866FF;
+  background-color: transparent;
+}
+
+.homepageCS main a:hover {
+  color: #0f0f0f;
+  transition: .6s ease all;
+  background-color: #0866FF;
+}

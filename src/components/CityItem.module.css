@@ -1,0 +1,47 @@
+.cityItemCS,
+.cityItemCS:link,
+.cityItemCS:visited {
+  display: flex;
+  color: inherit;
+  cursor: pointer;
+  align-items: center;
+  text-decoration: none;
+  gap: 4px;
+  height: 40px;
+  width: 276px;
+  border-radius: 8px;
+  padding: 0 10px 0 22px;
+  border: 1px solid transparent;
+  border-left: 4px solid #0866FF;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.activeCityItemCS {
+  border: 1px solid #0866FF;
+}
+
+.emojiCS {
+  font-size: 18px;
+}
+
+.cityNameCS {
+  font-size: 14px;
+  margin-right: auto;
+}
+
+.xBNCS {
+  color: red;
+  border: none;
+  cursor: pointer;
+  height: 20px;
+  font-size: 14px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transition: 0.2s ease all;
+  background-color: black;
+}
+
+.xBNCS:hover {
+  color: black;
+  background-color: red;
+}

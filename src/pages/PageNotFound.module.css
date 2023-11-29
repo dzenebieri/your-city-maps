@@ -1,0 +1,36 @@
+.pageNotFoundCS {
+  color: red;
+  height: 100vh;
+  display: flex;
+  font-family: bold;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #242424;
+}
+
+.pageNotFoundCS div {
+  display: flex;
+  align-items: center;
+}
+
+.pageNotFoundCS span {
+  padding: 10px;
+  font-size: 50px;
+}
+
+.pageNotFoundCS a,
+.pageNotFoundCS a:visited {
+  font-size: 50px;
+  color: #0866FF;
+}
+
+@media (max-width: 500px) {
+
+  .pageNotFoundCS span,
+  .pageNotFoundCS a,
+  .pageNotFoundCS a:visited {
+    padding: 5px;
+    font-size: 25px;
+  }
+}
